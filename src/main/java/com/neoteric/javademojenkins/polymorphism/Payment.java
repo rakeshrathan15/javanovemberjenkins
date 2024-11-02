@@ -13,7 +13,7 @@ public class Payment {
 
     private  String transactionId;
 
-    private  String transactiondate;
+    private  Date transactiondate;
 
     public String getTransactionid() {
         return transactionId;
@@ -23,11 +23,11 @@ public class Payment {
         this.transactionId = transactionId;
     }
 
-    public String getTransactiondate() {
+    public Date getTransactiondate() {
         return transactiondate;
     }
 
-    public void setTransactiondate(String transactiondate) {
+    public void setTransactiondate(Date transactiondate) {
         this.transactiondate = transactiondate;
     }
 
